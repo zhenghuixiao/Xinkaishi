@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:id="@+id/main_layout"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+	<RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+	    android:background="#FFFFFF">
+	    <TableLayout 
+	        android:layout_width="650dp"
+	        android:layout_height="90dp">
+	        <TableRow
+	            android:layout_width="match_parent"
+	            android:layout_height="90dp"
+	            android:orientation="horizontal">
+	        
+		        <RelativeLayout
+		            android:id="@+id/title_all"
+		            android:layout_width="wrap_content"
+		            android:layout_height="90dp"
+		            android:layout_weight="1"
+		            android:onClick="rl_allgoods">
+				    <ImageView
+				        android:id="@+id/iv_all"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_alignParentTop="true"
+				        android:src="@drawable/menu_btn1_hover"
+				        android:layout_marginLeft="20dp"/>
+			    </RelativeLayout>
+			    
+		        <RelativeLayout
+		            android:id="@+id/title_zice"
+		            android:layout_width="wrap_content"
+		            android:layout_height="90dp"
+		            android:layout_weight="1">
+				    <ImageView
+				        android:id="@+id/iv_zice"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:src="@drawable/menu_btn3"
+				        android:layout_marginLeft="20dp"/>
+				</RelativeLayout>
+				
+		        <RelativeLayout
+		            android:id="@+id/title_zixun"
+		            android:layout_width="wrap_content"
+			        android:layout_height="90dp"
+			        android:layout_weight="1">
+				    <ImageView
+				        android:id="@+id/iv_zixun"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:src="@drawable/menu_btn2"
+				        android:layout_marginLeft="20dp"/>
+				</RelativeLayout> 
+		    </TableRow>
+	     </TableLayout>
+	     
+	    <ImageView
+	        android:id="@+id/title_logo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:src="@drawable/logo_e"
+	        android:layout_centerInParent="true"/>
+	    
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="55dp" 
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="15dp">
+		    <TextView
+		        android:id="@+id/tv_shopId"
+		        android:layout_width="wrap_content"
+		        android:layout_height="50dp" 
+		        android:textSize="28sp"
+		        android:layout_marginTop="3dp"
+		        android:gravity="center_vertical"
+		        android:text="新开始"/>
+	    </LinearLayout>
+    </RelativeLayout>
+    
+	<View
+        android:id="@+id/detail_first_div_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/div_gray"/>
+	
+	<FrameLayout  
+        android:id="@+id/id_content"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"/> 
+</LinearLayout>

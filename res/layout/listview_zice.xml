@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView
+        android:id="@+id/tv_zice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="问题~"
+        android:textSize="30sp"/>
+
+    <RadioGroup
+       	android:id="@+id/rg_zice"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+		    <RadioButton
+		        android:id="@+id/rb_always"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="40dp"
+		        android:textSize="26sp"
+		        android:text="选项"/>
+		    <RadioButton
+		        android:id="@+id/rb_ouer"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="40dp"
+		        android:textSize="26sp"
+		        android:text="选项"/>
+		    <RadioButton
+		        android:id="@+id/rb_little"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="40dp"
+		        android:textSize="26sp"
+		        android:text="选项"/>
+	    </RadioGroup>
+</LinearLayout>

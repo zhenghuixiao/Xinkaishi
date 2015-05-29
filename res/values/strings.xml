@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">新开始</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_detail_first">Detail_first</string>
+    <string name="title_activity_detali_second">Detali_second</string>
+    <string name="title_activity_detail_third">Detail_third</string>
+    <string name="title_activity_pad_main">PadMainActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_goods_detail_">GoodsDetail_Activity</string>
+    <string name="title_activity_loading">新开始</string>
+    <string name="title_activity_fragment_main">新开始</string>
+    <string name="title_activity_fragment1">Fragment1</string>
+    <string name="title_activity_fragment_ziche">Fragment_ziche</string>
+    <string name="title_activity_dialog_fragment">DialogFragment</string>
+
+</resources>

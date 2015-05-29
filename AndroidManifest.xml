@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xinkaishi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.Detail_first"
+            android:label="@string/title_activity_detail_first" >
+        </activity>
+        <activity
+            android:name=".activity.Detail_second"
+            android:label="@string/title_activity_detali_second" >
+        </activity>
+        <activity
+            android:name=".activity.Detail_third"
+            android:label="@string/title_activity_detail_third" >
+        </activity>
+
+        <activicom.example.xinkaishi.activity.MenuActivity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar" >
+        </activicom.example.xinkaishi.activity.MenuActivity>
+
+        <activity
+            android:name=".activity.GoodsDetail_Activity"
+            android:label="@string/title_activity_goods_detail_" >
+        </activity>
+        <activity
+            android:name=".activity.LoadingActivity"
+            android:label="@string/title_activity_loading" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Fragment_main"
+            android:label="@string/title_activity_fragment_main" >
+        </activity>
+        <activity
+            android:name=".activity.Fragment_1"
+            android:label="@string/title_activity_fragment1" >
+        </activity>
+        <activity
+            android:name=".activity.Fragment_zice"
+            android:label="@string/title_activity_fragment_ziche" >
+        </activity>
+        <activity
+            android:name=".DialogFragment"
+            android:label="@string/title_activity_dialog_fragment" >
+        </activity>
+    </application>
+
+</manifest>

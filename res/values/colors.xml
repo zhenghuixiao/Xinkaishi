@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_bg">#8000</color>
+
+    <color name="popup_left_bg">#eee</color>
+    <color name="popup_right_bg">#fff</color><!-- 选中时的颜色-->
+    <color name="popup_right_bg_selected">#ccc</color>
+
+    <color name="div_gray">#ccc</color>
+    <color name="popup_phone">#fff</color>
+    <color name="menuName_red">#D11735</color>
+    <color name="button_onclick">#E3E3E3</color>
+    <color name="button_off">#FFFFFF</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="username">#FFFFFF</color>
+    <color name="password">#FFFFFF</color>
+    <color name="main_red">#D11735</color>
+    <color name="bg_gray">#EEEEEE</color>
+    <color name="shop_name">#6B6B6B</color>
+    <color name="black">#000000</color>
+    <color name="gray">#333333</color>
+    <color name="tv_green">#2E8628</color>
+     <color name="tv_yellow">#EF8B1F</color>
+    
+</resources>
